@@ -1,18 +1,13 @@
-# Frontend-Dantown-Internship
-Hey Guys,  
 
-Welcome to the Dantown Front-End Internship Assessment,
+  # Dantown Intership
 
-You are required to create a branch from the main branch and initialize a Next.js application
+  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
-Build out the UI and its corresponding components as seen in the figma file below
+  To preview and run the project on your device:
+  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
+  2) In the terminal, run `npm install`
+  3) Run `npm start` to view project in browser
 
-https://www.figma.com/file/80Ta7rbpKp4tytob7BnyQs/Dantown-Internship?type=design&node-id=2-38&mode=design
 
-Subsequently make a Pull Request to the main branch
 
-You can use any Front-End Tooling of your choice be it styled-components or whatnot
-
-Host the Project and send the project link, alongside your CV to hire@godantown.com
-
-Goodluck Guys!
+  LIVE DEMO = https://testing-plum-mu.vercel.app/
