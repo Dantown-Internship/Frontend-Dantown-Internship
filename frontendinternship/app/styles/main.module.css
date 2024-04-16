@@ -94,10 +94,11 @@
     height: 210px;
   }
   /* .img h3{
-  margin: 20%;
+    margin-top: -2%;
    
   } */
-  .img h6{
+  .img h6 {
+    margin-top: 12%;
    font-size: x-small;
      
     }
