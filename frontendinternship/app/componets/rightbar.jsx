@@ -2,9 +2,9 @@ import { useState } from "react";
 import Image from "next/image";
 // import styles from '../styles/right.module.css'; // Import CSS module
 import styles from "../styles/right.module.css"; // Import CSS module
+// import Center from "./center";
+// import Center from "./componets/center";
 import Center from "./center";
-import Center from "./componets/center";
-
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faHome, faDashboard, faClock, faTag, faBars, faBookmark, faCalendar, faCheck, faFootball, faSoccerBall, faGamepad, faMusic, faChalkboardTeacher, faTimes } from '@fortawesome/free-solid-svg-icons';
 
@@ -12,7 +12,7 @@ const Rightbar = () => {
   return (
     <>
       <div className={styles.rightcontainer}>
-      <Center />
+      {/* <Center /> */}
         <h1>
           {" "}
           <Image src="/vector.jpg" alt="logo" width={10} height={100} />
@@ -108,7 +108,7 @@ const Rightbar = () => {
             </li>
           </a>
         </ul>
-        <Center />
+        
       </div>
     </>
   );

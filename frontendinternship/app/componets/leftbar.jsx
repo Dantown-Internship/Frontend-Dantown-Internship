@@ -58,6 +58,7 @@
 // export default Liftbar;
 import { useState, useEffect } from "react";
 import Image from 'next/image';
+import Center from "./center";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faM, faCircle } from '@fortawesome/free-solid-svg-icons';
 // import Chat from "./chat";
@@ -83,7 +84,9 @@ const Liftbar = () => {
     };
 
     return (
+        <div className = {styles.general}>
         <div className={styles.liftcontainer}>
+           {/* <Center /> */}
             <div className={styles.icons}>
                 <Image src="/m3.svg" alt="logo" width={10} height={100} />
                 <Image src="/m1.svg" alt="logo" width={10} height={100} />
@@ -116,7 +119,9 @@ const Liftbar = () => {
         <h4>Araina Grande<h6>After that you can see me </h6></h4>
   </div>
             </div>
+            
             {/* <Chat /> */}
+        </div>
         </div>
     );
 };

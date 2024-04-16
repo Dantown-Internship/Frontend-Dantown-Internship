@@ -1,4 +1,31 @@
-.contents{
+.contents {
     display: flex;
-    background-color: black;
-}
+    justify-content: space-between; /* Adjust alignment as needed */
+  }
+  
+  /* Example styles for each component */
+  .Rightbar {
+    flex: 1; /* Takes up equal space */
+  }
+  
+  .Center {
+    flex: 2; /* Takes up more space */
+  }
+  
+  .Leftbar {
+    flex: 1; /* Takes up equal space */
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .contents {
+      flex-direction: column; /* Stack components vertically */
+    }
+  
+    /* Example styles for mobile layout */
+    .Rightbar, .Center, .Leftbar {
+      flex: none; /* Reset flex to default */
+      width: 100%; /* Full width */
+    }
+  }
+  

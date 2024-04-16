@@ -101,6 +101,11 @@
   }
    */
    /* lift.module.css */
+   /* .general {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+   } */
 .liftcontainer {
   margin: 22px;
   display: flex;
