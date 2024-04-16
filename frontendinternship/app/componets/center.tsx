@@ -74,7 +74,7 @@ const Center = () => {
                                 <td>4</td>
                                 <td>Mamong Ironman</td>
                                 <td>Skater</td>
-                                <td>2,277</td>
+                                <td>2,237</td>
                             </tr>
               {/* Add other rows */}
             </tbody>
