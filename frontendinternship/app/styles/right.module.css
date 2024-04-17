@@ -7,7 +7,7 @@
 .rightcontainer {
     margin: 12px;
     width: 240px;
-    height: fit-content;
+    /* height: fit-content; */
     background: #FFF;
     display: flex;
     flex-direction: column;
@@ -48,14 +48,14 @@
     color: #0F3F62;
     font-style: normal;
     font-weight: 800;
-    letter-spacing: 0.32px;
+    /* letter-spacing: 0.32px; */
 }
 
 .list {
     list-style: none;
     display: flex;
     flex-direction: column;
-    line-height: 50px;
+    /* line-height: 50px; */
     border-bottom: 1px solid rgb(182, 169, 169);
     color: #8695A0;
     font-family: Avenir;
@@ -76,7 +76,7 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 50px;
+    /* line-height: 50px; */
     letter-spacing: 0.28px;
     display: flex;
     flex-direction: column;
@@ -100,7 +100,7 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 50px;
+    /* line-height: 50px; */
     letter-spacing: 0.28px;
     display: flex; /* Make the list items flex containers */
     flex-direction: column;
