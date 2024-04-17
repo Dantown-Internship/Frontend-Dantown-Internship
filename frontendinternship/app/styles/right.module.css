@@ -1,10 +1,6 @@
-/* rightbar.module.css */
-/* body {
-    background: #f9fbfc;
-    display: flex;
-} */
 
 .rightcontainer {
+    position: relative;
     margin: 12px;
     width: 240px;
     /* height: fit-content; */
