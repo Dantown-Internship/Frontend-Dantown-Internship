@@ -1,12 +1,13 @@
-// "use client";
-"use server";
+"use client";
+// "use server";
 
 import Center from "./componets/center";
 import Rightbar from "./componets/Rightbar";
 import Leftbar from "./componets/leftbar";
 import styles from "../styles/contents.module.css";
 
-export default function Home  () {
+export default async function Home  () {
+
 
   return(
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">
