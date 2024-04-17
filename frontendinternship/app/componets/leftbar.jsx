@@ -58,7 +58,7 @@
 // export default Liftbar;
 import { useState, useEffect } from "react";
 import Image from 'next/image';
-import Center from "./center";
+import Chat from "./chatbox";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faM, faCircle } from '@fortawesome/free-solid-svg-icons';
 // import Chat from "./chat";
@@ -68,23 +68,25 @@ import Center from "./center";
 // import vectora from '../public/Vectora.svg';
 // import styles from './lift.module.css'; // Import your CSS file
 import styles from "../styles/liftbar.module.css";
-const Liftbar = () => {
-    const [isShaking, setIsShaking] = useState(false);
+const Liftbar = () => {    
+    // const [isShaking, setIsShaking] = useState(false);
 
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setIsShaking(false);
-        }, 1000);
+    // useEffect(() => {
+    //     const timer = setTimeout(() => {
+    //         setIsShaking(false);
+    //     }, 1000);
 
-        return () => clearTimeout(timer);
-    }, [isShaking]);
+    //     return () => clearTimeout(timer);
+    // }, [isShaking]);
 
-    const handleClick = () => {
-        setIsShaking(true);
-    };
+    // const handleClick = () => {
+    //     setIsShaking(true);
+    // };
 
     return (
+        <>
         <div className = {styles.general}>
+           
         <div className={styles.liftcontainer}>
            {/* <Center /> */}
             <div className={styles.icons}>
@@ -122,7 +124,11 @@ const Liftbar = () => {
             
             {/* <Chat /> */}
         </div>
+        <Chat />
+        
         </div>
+                
+         </>
     );
 };
 
