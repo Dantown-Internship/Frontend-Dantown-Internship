@@ -1,9 +1,10 @@
-"use client";
+// "use client";
 
 import Center from "./componets/center";
 import Rightbar from "./componets/Rightbar";
 import Leftbar from "./componets/leftbar";
 import styles from "../styles/contents.module.css";
+
 const Home = () => {
 
   return(

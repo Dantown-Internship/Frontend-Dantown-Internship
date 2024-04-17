@@ -118,6 +118,17 @@
   position: relative;
   align-items: center;
   top: 25%;
+  background-color:white;
+  font-size: 13px;
+  color: #0F3F62;
+  font-family: Avenir;
+font-weight: 900;
+}
+.header p{
+  color: #0F3F62;
+}
+.header h6{
+  color: #8695A0;
 }
 .img {
   display: flex;

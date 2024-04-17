@@ -44,14 +44,14 @@ const Center = () => {
           <div className={styles.img}>
             <Image src="/G3.svg" alt="logo" width={100} height={100} />
             <div className={styles.header}>
-            <h3>Yoga Forces</h3>
+            <p>Yoga Forces</p>
             <h6>Welcome to the biggeest</h6>
             </div>
           </div>
           <div className={styles.img}>
             <Image src="/m6.svg" alt="logo" width={100} height={100} />
             <div className={styles.header}>
-            <h3>Skater Boys</h3>
+            <p>Skater Boys</p>
             <h6>The best state of skaters</h6>
             </div>
           </div>
