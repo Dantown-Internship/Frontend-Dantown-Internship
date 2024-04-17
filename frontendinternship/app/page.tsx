@@ -2,7 +2,7 @@
 // "use server";
 
 import Center from "./componets/center";
-import Rightbar from "./componets/Rightbar";
+import Rightbar from "./componets/rightbar";
 import Leftbar from "./componets/leftbar";
 import styles from "../styles/contents.module.css";
 
