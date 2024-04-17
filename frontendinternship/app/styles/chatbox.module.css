@@ -77,8 +77,9 @@ background: #5DC2C4;
 }
 .messagecontent1 {
   padding: 1px;
-  color: rgba(93, 194, 196, 1);
   padding-left: 40%;
+  color: #e0e0e0;
+ 
 }
 .messagetimestamp1 {
   font-size: 12px;
@@ -105,7 +106,8 @@ background: #5DC2C4;
 }
 
 .chatcontainer button {
-  margin-left: 10px;
+  margin-top: 20px;
+  
   padding: 10px 20px;
   color: white;
   border: none;
@@ -113,8 +115,6 @@ background: #5DC2C4;
   cursor: pointer;
 }
 
-.chatcontainer button:hover {
-  background-color: rgba(244, 105, 76, 1);
-}
+
 
 /* Additional styles */

@@ -118,6 +118,7 @@ const Liftbar = () => {
         </div><br></br>
         <div className="c">
         {/* <FontAwesomeIcon icon={faCircle} className="icon"/> */}
+        {/* <Image src="/Group 131.svg" alt="logo" width={10} height={10} /> */}
         <h4>Araina Grande<h6>After that you can see me </h6></h4>
   </div>
             </div>

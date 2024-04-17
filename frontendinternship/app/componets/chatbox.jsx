@@ -34,6 +34,7 @@ import styles from '../styles/chatbox.module.css'; // Assuming you have a styles
 import { useState } from 'react'; // React is automatically available in Next.js
 // import '../styles/chat.css'; // Assuming you have a styles folder for CSS
 // Import FontAwesomeIcon and other images as needed
+import Image from 'next/image';
 
 const Chat = () => {
   const [messages, setMessages] = useState([
@@ -88,9 +89,11 @@ const Chat = () => {
           value={newMessage}
           onChange={(e) => setNewMessage(e.target.value)}
         />
-        {/* <Image src="/G1.svg" alt="logo" width={10} height={100} />
-         <button>send</button> */}
+        {/* <Image src="/G1.svg" alt="logo" width={10} height={100} /> */}
+        <Image src="/G1.svg" alt="logo" width={10} height={100} />
+         <button><Image src="/m2.svg" alt="logo" width={20} height={20} />send</button>
       </div>
+      
     </div>
     </>
   );
