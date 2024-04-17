@@ -1,4 +1,5 @@
 // "use client";
+"use server";
 
 import Center from "./componets/center";
 import Rightbar from "./componets/Rightbar";
