@@ -1,6 +1,13 @@
 import Image from 'next/image';
 import Chat from "./chatbox";
 import styles from "../styles/liftbar.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faMagnifyingGlass,
+  faCircleStop
+} from "@fortawesome/free-solid-svg-icons";
+
+
 const Liftbar = () => {    
 
     return (
@@ -23,8 +30,7 @@ const Liftbar = () => {
             <h4>chats</h4>
             <h5>14</h5>
             </div>
-            <div className="d">
-        {/* <FontAwesomeIcon icon={faCircle} className="icon"/> */}
+            <div className={StyleSheet.d}>
         <h4>Ironmen</h4>
         <h6>When will the play be held? </h6>
         </div><br></br>

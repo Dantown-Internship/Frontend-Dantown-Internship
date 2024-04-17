@@ -3,6 +3,11 @@ import Image from "next/image"; // Import Image component from Next.js
 // import { faCircle, faSearch } from '@fortawesome/free-solid-svg-icons';
 // import Tablet from './tab';
 import styles from "../styles/main.module.css"; // Import CSS module
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faMagnifyingGlass,
+  faCircleStop
+} from "@fortawesome/free-solid-svg-icons";
 
 const Center = () => {
   return (
@@ -17,8 +22,13 @@ const Center = () => {
             <label>
               <span className={styles.button}>
                 {/* <FontAwesomeIcon icon={faSearch} className={styles.icon} /> */}
+        
               </span>
-              <input type="text" placeholder="Search Here" />
+              <div className={styles.search}>
+              <FontAwesomeIcon
+        icon={faMagnifyingGlass}
+      /><input type="text" placeholder="Search Here" />
+      </div>
             </label>
           </div>
         </div>

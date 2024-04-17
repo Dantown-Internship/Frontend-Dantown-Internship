@@ -209,5 +209,9 @@
 .chatcontainer button:hover {
   background-color: rgba(244, 105, 76, 1);
 }
-
+.d{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
 
