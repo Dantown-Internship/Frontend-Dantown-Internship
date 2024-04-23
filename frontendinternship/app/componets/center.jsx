@@ -17,7 +17,7 @@ const Center = () => {
         <div className={styles.nav}>
           <div className={styles.headerline}>
           <h2>Hey, Dustin </h2>
-          <Image src="/images/Group 131.svg" alt="Example Image" width={500} height={300} />
+          <Image src="/images/Group 131.svg" alt="Example Image" width={100} height={100} />
           <h6>Welcome back, nice to see you again?</h6>
           </div>
           <div className={styles.got}>

@@ -10,7 +10,7 @@ const Rightbar = () => {
         <h1>
        
           {" "}
-          <Image src="/vector.jpg" alt="logo" width={10} height={100} />
+          <Image src="/images/vector.jpg" alt="logo" width={10} height={100} />
           Sedboi.euy
         </h1>
 
@@ -18,56 +18,56 @@ const Rightbar = () => {
           <a href="#">
             <li>
               {" "}
-              <Image src="images/Group.svg" alt="logo" width={100} height={100} />
+              <Image src="/images/Group.svg" alt="logo" width={100} height={100} />
               Home
             </li>
           </a>
           <a href="#">
             <li>
               {" "}
-              <Image src="images/Gr.svg" alt="logo" width={100} height={100} />
+              <Image src="/images/Gr.svg" alt="logo" width={100} height={100} />
               Timeline
             </li>
           </a>
           <a href="#">
             <li>
               {" "}
-              <Image src="images/G9.svg" alt="logo" width={100} height={100} />
+              <Image src="/images/G9.svg" alt="logo" width={100} height={100} />
               Community
             </li>
           </a>
           <a href="#">
             <li>
               {" "}
-              <Image src="images/Gt.svg" alt="logo" width={100} height={100} />
+              <Image src="/images/Gt.svg" alt="logo" width={100} height={100} />
               Discovery
             </li>
           </a>
           <a href="#">
             <li>
               {" "}
-              <Image src="images/Gr.svg" alt="logo" width={100} height={100} />
+              <Image src="/images/Gr.svg" alt="logo" width={100} height={100} />
               Friends
             </li>
           </a>
           <a href="#">
             <li>
               {" "}
-              <Image src="images/Gk.svg" alt="logo" width={100} height={100} />
+              <Image src="/images/Gk.svg" alt="logo" width={100} height={100} />
               Bookmark
             </li>
           </a>
           <a href="#">
             <li>
               {" "}
-              <Image src="images/Gp.svg" alt="logo" width={100} height={100} />
+              <Image src="/images/Gp.svg" alt="logo" width={100} height={100} />
               Event
             </li>
           </a>
           <a href="#">
             <li>
               {" "}
-              <Image src="images/Gpp.svg" alt="logo" width={100} height={100} />
+              <Image src="/images/Gpp.svg" alt="logo" width={100} height={100} />
               Discussion
             </li>
           </a>
@@ -77,28 +77,28 @@ const Rightbar = () => {
           <a href="#">
             <li>
               {" "}
-              <Image src="images/G8.svg" alt="logo" width={100} height={100} />
+              <Image src="/images/G8.svg" alt="logo" width={100} height={100} />
               Sport
             </li>
           </a>
           <a href="#">
             <li>
               {" "}
-              <Image src="images/Gt.svg" alt="logo" width={100} height={100} />
+              <Image src="/images/Gt.svg" alt="logo" width={100} height={100} />
               Gaming
             </li>
           </a>
           <a href="#">
             <li>
               {" "}
-              <Image src="images/Gt.svg" alt="logo" width={100} height={100} />
+              <Image src="/images/Gt.svg" alt="logo" width={100} height={100} />
               Music
             </li>
           </a>
           <a href="#">
             <li>
               {" "}
-              <Image src="images/Gt.svg" alt="logo" width={100} height={100} />
+              <Image src="/images/Gt.svg" alt="logo" width={100} height={100} />
               Tech & Science
             </li>
           </a>
