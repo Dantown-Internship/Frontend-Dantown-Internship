@@ -10,7 +10,7 @@ const Rightbar = () => {
         <h1>
        
           {" "}
-          <Image src="/images/vector1.svg" alt="logo" width={10} height={100} />
+          <Image src="/images/vector1.svg" alt="logo" width={100} height={100} />
           Sedboi.euy
         </h1>
 
