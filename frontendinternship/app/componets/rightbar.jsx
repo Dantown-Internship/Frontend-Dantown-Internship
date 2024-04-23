@@ -4,18 +4,19 @@ import styles from "../styles/right.module.css"; // Import CSS module
 const Rightbar = () => {
   return (
     <>
-      <div className={styles.rightcontainer}>
+    <div className="flex-shrink-0 w-1/4 md:w-1/3 lg:w-1/4 xl:w-1/5" >
+        <div className={styles.rightcontainer} >
       
         <h1>
        
           {" "}
-          <Image src="/images/E1.svg" alt="logo" width={10} height={100} />
+          <Image src="/images/vector1.svg" alt="logo" width={10} height={100} />
           Sedboi.euy
         </h1>
 
         <ul className={styles.list}>
           <a href="#">
-            <li>
+            <li className={styles.home}>
               {" "}
               <Image src="/images/Group.svg" alt="logo" width={100} height={100} />
               Home
@@ -83,51 +84,30 @@ const Rightbar = () => {
           <a href="#">
             <li>
               {" "}
-              <Image src="/images/Gt.svg" alt="logo" width={100} height={100} />
+              <Image src="/images/Group 212.png" alt="logo" width={100} height={100} />
               Gaming
             </li>
           </a>
           <a href="#">
             <li>
               {" "}
-              <Image src="/images/Gt.svg" alt="logo" width={100} height={100} />
+              <Image src="/images/Group 213.svg" alt="logo" width={100} height={100} />
               Music
             </li>
           </a>
           <a href="#">
             <li>
               {" "}
-              <Image src="/images/Gt.svg" alt="logo" width={100} height={100} />
+              <Image src="/images/Group 215.png" alt="logo" width={100} height={100} />
               Tech & Science
             </li>
           </a>
         </ul>
       </div>
-    </>
+      </div>
+      </>
+   
   );
 };
 
 export default Rightbar;
-// components/NavBar.js
-// import Image from "next/image";
-// import  "../styles/right.module.css"; // Import CSS module
-
-// const Rightbar = () => {
-//   return (
-//     <nav className="vertical-navbar">
-//       <ul>
-//         <li>
-//           <img src="/images/E2.svg" alt="Image 1" />
-//           <a href="#">Home</a>
-//         </li>
-//         <li>
-//           <img src="/images/E3.svg" alt="Image 2" />
-//           <a href="#">Timeline</a>
-//         </li>
-//         {/* Add more list items as needed */}
-//       </ul>
-//     </nav>
-//   );
-// };
-
-// export default Rightbar;

@@ -76,7 +76,7 @@ const Center = () => {
             <td className={styles.mam}>
               <div className={styles.mam}>
                 Mamong Ironman
-                <Image src="/images/Group 131.svg" alt="logo" width={10} height={10} />
+                <Image src="/Group 131.svg" alt="logo" width={10} height={10} />
               </div>
             </td>
             <td>Skater</td>
