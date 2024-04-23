@@ -12,12 +12,10 @@ import {
 const Center = () => {
   return (
     <>
-    <Image src="/images/Group 131.svg" alt="Example Image" width={50} height={30} />
       <div className={styles.maincontainer}>
         <div className={styles.nav}>
           <div className={styles.headerline}>
           <h2>Hey, Dustin </h2>
-          <Image src="/images/Group 131.svg" alt="Example Image" width={100} height={100} />
           <h6>Welcome back, nice to see you again?</h6>
           </div>
           <div className={styles.got}>
@@ -37,21 +35,21 @@ const Center = () => {
 
         <div className={styles.images}>
           <div className={styles.img}>
-            <Image src="/G4.svg" alt="logo" width={100} height={100} />
+            <Image src="/images/G4.svg" alt="logo" width={100} height={100} />
             <div className={styles.header}>
             <p>Real Wild Cyclist</p>
             <h6>We are the wildest Cyclist</h6>
             </div>
           </div>
           <div className={styles.img}>
-            <Image src="/G3.svg" alt="logo" width={100} height={100} />
+            <Image src="/images/G3.svg" alt="logo" width={100} height={100} />
             <div className={styles.header}>
             <p>Yoga Forces</p>
             <h6>Welcome to the biggeest</h6>
             </div>
           </div>
           <div className={styles.img}>
-            <Image src="/m6.svg" alt="logo" width={100} height={100} />
+            <Image src="/images/m6.svg" alt="logo" width={100} height={100} />
             <div className={styles.header}>
             <p>Skater Boys</p>
             <h6>The best state of skaters</h6>
@@ -78,7 +76,7 @@ const Center = () => {
             <td className={styles.mam}>
               <div className={styles.mam}>
                 Mamong Ironman
-                <Image src="/Group 131.svg" alt="logo" width={10} height={10} />
+                <Image src="/images/Group 131.svg" alt="logo" width={10} height={10} />
               </div>
             </td>
             <td>Skater</td>
