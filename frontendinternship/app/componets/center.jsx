@@ -19,17 +19,18 @@ const Center = () => {
           <h2>Hey, Dustin </h2>
           <h6>Welcome back, nice to see you again?</h6>
           </div>
+          <div className={styles.search}>
+              <FontAwesomeIcon
+        icon={faMagnifyingGlass}
+      /><input type="text" placeholder="Search Here" />
+      </div>
           <div className={styles.got}>
             <label>
               <span className={styles.button}>
                 {/* <FontAwesomeIcon icon={faSearch} className={styles.icon} /> */}
         
               </span>
-              <div className={styles.search}>
-              <FontAwesomeIcon
-        icon={faMagnifyingGlass}
-      /><input type="text" placeholder="Search Here" />
-      </div>
+           
             </label>
           </div>
         </div>
