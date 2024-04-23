@@ -14,7 +14,7 @@
     height: 28px;
     top: 104px;
     gap: 0px;
-    opacity: 0px;
+  
     
   }
   
@@ -113,21 +113,16 @@
     margin-right: 10px; /* Add spacing between image and text */
   }
   
-  .logo{
+  /* .logo{
     width: 20px;
   height: 8px;
   top: 104px;
   gap: 0px;
   opacity: 0px;
   
-  }
+  } */
   
-   /* a:hover {
-    background-color: #1c2831;
-    opacity: 33px;
-    border-radius: 14px;
-    transition: 10ms;
-  }  */
+ 
   
 /* styles/styles.css */
 
