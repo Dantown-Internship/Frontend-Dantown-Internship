@@ -10,16 +10,16 @@ import {
 const Liftbar = () => {
   return (
     <>
-    <Image src="/images/Group 131.svg" alt="Example Image" width={50} height={30} />
+    
       <div className={styles.general}>
         <div className={styles.liftcontainer}>
           <div className={styles.icons}>
-            <Image src="/m3.svg" alt="logo" width={10} height={100} />
-            <Image src="/m1.svg" alt="logo" width={10} height={100} />
+            <Image src="/images/m3.svg" alt="logo" width={10} height={100} />
+            <Image src="/images/m1.svg" alt="logo" width={10} height={100} />
             <div className={styles.hut}>
-              <Image src="/img.png" alt="logo" width={10} height={100} />
+              <Image src="/images/img.png" alt="logo" width={10} height={100} />
               <h6>Supremacy</h6>
-              <Image src="/vectora.svg" alt="logo" width={10} height={100} />
+              <Image src="/images/vectora.svg" alt="logo" width={10} height={100} />
             </div>
           </div>
           <div className={styles.pop}>

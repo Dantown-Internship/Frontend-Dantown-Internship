@@ -27,7 +27,7 @@
   flex-direction: column;
   height: 400px;
   background: #F7FAFC;
-  opacity: 0.5px;
+  /* opacity: 0.5px; */
 }
 
 .pop .d,
@@ -94,7 +94,7 @@
   color: #54BCBD;
   border-radius: 13px;
   text-align: center;
-  opacity: 33px;
+  /* opacity: 33px; */
 }
 
 .ch h4 {

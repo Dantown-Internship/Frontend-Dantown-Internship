@@ -12,6 +12,7 @@ import {
 const Center = () => {
   return (
     <>
+    <div className="flex-shrink-0 w-3/4 md:w-1/3 lg:w-1/4 xl:w-4/5">
       <div className={styles.maincontainer}>
         <div className={styles.nav}>
           <div className={styles.headerline}>
@@ -76,7 +77,7 @@ const Center = () => {
             <td className={styles.mam}>
               <div className={styles.mam}>
                 Mamong Ironman
-                <Image src="/Group 131.svg" alt="logo" width={10} height={10} />
+                <Image src="/images/Group 131.svg" alt="logo" width={10} height={10} />
               </div>
             </td>
             <td>Skater</td>
@@ -105,6 +106,8 @@ const Center = () => {
       </table>
     </div>
       </div>
+      </div>
+    
     </>
   );
 };

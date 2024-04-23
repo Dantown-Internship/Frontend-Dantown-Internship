@@ -90,8 +90,8 @@ const Chat = () => {
           onChange={(e) => setNewMessage(e.target.value)}
         />
         {/* <Image src="/G1.svg" alt="logo" width={10} height={100} /> */}
-        <Image src="/G1.svg" alt="logo" width={10} height={100} />
-         <button><Image src="/m2.svg" alt="logo" width={20} height={20} />send</button>
+        <Image src="/images/G1.svg" alt="logo" width={10} height={100} />
+         <button><Image src="/images/m2.svg" alt="logo" width={20} height={20} />send</button>
       </div>
       
     </div>
