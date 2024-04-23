@@ -10,6 +10,7 @@ import {
 const Liftbar = () => {
   return (
     <>
+    <Image src="/images/Group 131.svg" alt="Example Image" width={50} height={30} />
       <div className={styles.general}>
         <div className={styles.liftcontainer}>
           <div className={styles.icons}>

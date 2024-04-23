@@ -4,8 +4,9 @@ import styles from "../styles/right.module.css"; // Import CSS module
 const Rightbar = () => {
   return (
     <>
+    <Image src="/images/Group 131.svg" alt="Example Image" width={50} height={30} />
       <div className={styles.rightcontainer}>
-      <Image src="/images/Group 131.svg" alt="Example Image" width={50} height={30} />
+      
         <h1>
        
           {" "}

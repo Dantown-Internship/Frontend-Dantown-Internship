@@ -12,10 +12,12 @@ import {
 const Center = () => {
   return (
     <>
+    <Image src="/images/Group 131.svg" alt="Example Image" width={50} height={30} />
       <div className={styles.maincontainer}>
         <div className={styles.nav}>
           <div className={styles.headerline}>
           <h2>Hey, Dustin </h2>
+          <Image src="/images/Group 131.svg" alt="Example Image" width={500} height={300} />
           <h6>Welcome back, nice to see you again?</h6>
           </div>
           <div className={styles.got}>
