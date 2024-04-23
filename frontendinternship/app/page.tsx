@@ -6,7 +6,7 @@ import Rightbar from "./componets/rightbar";
 import Leftbar from "./componets/leftbar";
 import styles from "../styles/contents.module.css";
 
-export default async function Home  () {
+export default  function Home  () {
 
 
   return(

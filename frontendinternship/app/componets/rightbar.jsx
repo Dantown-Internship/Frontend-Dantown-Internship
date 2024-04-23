@@ -15,7 +15,7 @@ const Rightbar = () => {
           <a href="#">
             <li>
               {" "}
-              <Image src="/Group.svg" alt="logo" width={100} height={100} />
+              <Image src="images/Group.svg" alt="logo" width={100} height={100} />
               Home
             </li>
           </a>
