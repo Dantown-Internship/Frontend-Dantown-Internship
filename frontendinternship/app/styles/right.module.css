@@ -8,17 +8,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.rightcontainer img{
+  }
+  .rightcontainer img{
     width: 20px;
     height: 28px;
     top: 104px;
     gap: 0px;
     opacity: 0px;
     
-}
-
-.rightcontainer h1 {
+  }
+  
+  .rightcontainer h1 {
     font-family: Avenir;
     font-weight: 800;
     display: flex;
@@ -32,9 +32,9 @@
     padding: 10px;
     font-size: 20px;
     color: rgba(244, 105, 76, 1);
-}
-
-.rightcontainer h3 {
+  }
+  
+  .rightcontainer h3 {
     font-family: monospace;
     display: flex;
     justify-content: center;
@@ -45,9 +45,9 @@
     font-style: normal;
     font-weight: 800;
     /* letter-spacing: 0.32px; */
-}
-
-.list {
+  }
+  
+  .list {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -59,13 +59,13 @@
     font-style: normal;
     font-weight: 400;
     letter-spacing: 1.28px;
-}
-.list li {
+  }
+  .list li {
     display: flex;
     align-items: center;
     padding: 10px;
-}
-.list1 {
+  }
+  .list1 {
     list-style: none;
     color: #a08686;
     font-family: Avenir;
@@ -78,18 +78,18 @@
     flex-direction: column;
     justify-content: center;
     
-}
-
-.sit {
+  }
+  
+  .sit {
     padding-right: 24px;
     padding-right: 10px;
-}
-.list1 h3 {
+  }
+  .list1 h3 {
     padding: 10px;
-}
-/* rightbar.module.css */
-/* Existing styles */
-.list1 {
+  }
+  /* rightbar.module.css */
+  /* Existing styles */
+  .list1 {
     list-style: none;
     color: #8695A0;
     font-family: Avenir;
@@ -101,30 +101,62 @@
     display: flex; /* Make the list items flex containers */
     flex-direction: column;
     justify-content: center;
-}
-
-.list1 li {
+  }
+  
+  .list1 li {
     display: flex; /* Display list items as flex containers */
     align-items: center; /* Align items vertically */
     padding: 10px;
-}
-
-.list1 li img {
+  }
+  
+  .list1 li img {
     margin-right: 10px; /* Add spacing between image and text */
-}
-
-/* .logo{
+  }
+  
+  .logo{
     width: 20px;
-height: 8px;
-top: 104px;
-gap: 0px;
-opacity: 0px;
-
-} */
-
-/* a:hover {
+  height: 8px;
+  top: 104px;
+  gap: 0px;
+  opacity: 0px;
+  
+  }
+  
+   /* a:hover {
     background-color: #1c2831;
     opacity: 33px;
     border-radius: 14px;
     transition: 10ms;
-} */
+  }  */
+  
+/* styles/styles.css */
+
+/* .vertical-navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: #333; 
+    padding: 20px;
+  }
+  
+  .vertical-navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .vertical-navbar li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .vertical-navbar li img {
+    width: 300px; 
+    height: 300px;
+    margin-right: 10px;
+  }
+  
+  .vertical-navbar li a {
+    color: #fff; 
+    text-decoration: none;
+  } */
+  
