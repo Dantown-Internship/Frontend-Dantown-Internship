@@ -5,8 +5,9 @@ const Rightbar = () => {
   return (
     <>
       <div className={styles.rightcontainer}>
+      <Image src="/images/Group 131.svg" alt="Example Image" width={50} height={30} />
         <h1>
-        <Image src="/images/Group 131.svg" alt="Example Image" width={50} height={30} />
+       
           {" "}
           <Image src="/vector.jpg" alt="logo" width={10} height={100} />
           Sedboi.euy
